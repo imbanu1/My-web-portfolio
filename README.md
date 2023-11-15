@@ -1,6 +1,6 @@
 # My-web-portfolio
 WHEN I load my portfolio this should display
-![screenshot image 1]([https://github.com/imbanu1/My-web-portfolio/issues/1#issue-1993972920](https://user-images.githubusercontent.com/60904607/282995960-0d6df1cf-809b-43a5-8d55-3647a3b745c2.png)
+![image](https://github.com/imbanu1/My-web-portfolio/assets/60904607/6d0d2fed-04e4-443a-a8fe-c09339acf85a)
 
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 WHEN I click one of the links in the navigation
