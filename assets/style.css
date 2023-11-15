@@ -1,0 +1,401 @@
+/* CSS variables used throughout the style sheet
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin:0;
+}
+:root{
+    --border-radius: 50px;
+    font-family: sans-serif;
+    }
+
+body{
+    width: 100%;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.6;
+    text-align: justify;
+    background-color: beige;
+    
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #0b1b2b;
+    color: #ffffff;
+}
+
+
+h1{
+    font-size: 220%;
+}
+h2 {
+    font-size: 200%;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+
+}
+nav ul li{
+    margin: inherit;
+    list-style:none;
+}
+nav a{
+font-weight: bold;
+color: #ffffff;
+text-decoration: none;
+}
+main{
+    display: flex;
+    flex: auto;
+}
+
+.cool-subtitle {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    background-position: right;
+    overflow: hidden;
+}
+.cool-subtitle img {
+width: 100%;
+height: auto;
+position: relative;
+}
+.cool-subtitle div {
+    background-color: #81afeb;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    width: auto;
+    right: 120px;
+    
+
+}
+main {
+    padding: 20px 40px;
+}
+.about-me{
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.about-me p{
+    line-height: 1.5;
+    margin: 8px;
+    width: 100%;
+    position: relative;
+    left: 210px;
+    bottom: 130px;
+
+}
+
+.about-card{
+    text-align: right;
+    padding: 20px;
+    border-right: 5px solid #0b1b2b;
+
+}
+.work-section{
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    position:absolute;
+    bottom: 50px;
+    right: -152px;
+    bottom: -500px;
+    
+}
+.work-card{
+    border-right: 5px solid #0b1b2b;
+    padding: 21px;
+    height: 700px;
+}
+
+.contactme-section{
+    padding: 30px 10px;
+    display: flex;
+    position: absolute;
+    bottom: -700px;
+    right: 966px;
+    height: 200px;
+}
+.surf{
+    height: 300px;
+    width: 150px;
+    border:
+}
+
+
+.pastel-puzzel  {
+    padding: 0px;
+    position: relative;
+    left: -170px;
+    top: 10px;
+    border: 5px solid turquoise;
+}
+
+.run-buddy{
+    padding: 0px;
+    position: absolute;
+    left: 70px;
+    bottom: 7px;
+    border: 5px solid turquoise;
+}
+
+
+.contactme-card{
+    padding: 20px;
+    border-right: 5px solid #0b1b2b;
+    text-align: center;
+}
+
+footer {
+padding: 5px;
+margin: 0px;
+flex-direction: column;
+text-align: center;
+
+
+}
+.contactme-footer li {
+    padding: 10px;
+    width: 100%;
+}
+
+.contactme-footer a{
+    padding: 0;
+} */
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+display: flex;
+justify-content: space-between;
+padding:20px;
+background-color: #0b1b2b;
+color: #ffffff;
+
+}
+h1{
+    font-size: 22px;
+}
+h2{
+    margin: 1px;
+    font-size: 200%;
+    color: #0b1b2b;
+    font-style: bold;
+}
+h3 p{
+    text-decoration: none;
+    text-align: center;
+}
+.subtitle{
+    width: fit-content;
+    border: 2px solid #5494cc;
+    background-color: skyblue;
+    padding: 17px;
+    position: absolute;
+    right: 40px;
+    top: 375px;
+    font-size: 20px;
+}
+
+nav {
+margin: 0;
+}
+nav ul{
+    padding:0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+}
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+  }
+
+
+.hero {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.about-me{
+    display: flex;
+}
+.about-me p{
+    line-height: 1.5;
+    margin: 15px;
+    width: 100%;
+    font-size: 20px;
+}
+.about-card{
+    margin-top: 15px;
+    text-align: right;
+    padding: 20px;
+    border-right: 5px solid #0b1b2b;
+
+}
+.work-section{
+    display: flex;
+}
+.work-card{
+    border-right: 5px solid #0b1b2b;
+    padding: 25px;
+    margin-top: 25px
+    
+}
+.applications{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.surf{
+    flex: 100%; 
+}
+
+
+.calculator, .led, .puzzel, .run{
+    flex: 50%;
+    
+}
+ .calculator img, .led img, .puzzel img, .run img {
+    widtH: 100%;
+    height: 100%;
+    margin-left: 15px;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 5px solid turquoise;
+   
+}
+
+
+.surf img {
+    height: 300px;
+    width: 100%;
+    margin-top: 2.2%;
+    margin-left: 15px;
+    box-sizing: border-box;
+    border: 5px solid turquoise;
+}
+.surf-content{
+    border: 2px solid turquoise;
+    width: fit-content;
+    background-color: #63e7e7;
+    position: relative;
+    bottom: 52px;
+    left: 19px;
+    text-align: center;
+}
+.led-content{
+    border: 2px solid turquoise;
+    width: fit-content;
+    background-color: #63e7e7;
+    position: relative;
+    bottom: 52px;
+    left: 19px;
+    text-align: center;
+}
+.calculator-content{
+    border: 2px solid turquoise;
+    width: fit-content;
+    background-color: #63e7e7;
+    position: relative;
+    bottom: 52px;
+    left: 19px;
+    text-align: center;
+    
+}
+.puzzel-content{
+    border: 2px solid turquoise;
+    width: fit-content;
+    background-color: #63e7e7;
+    position: relative;
+    bottom: 52px;
+    left: 19px;
+    text-align: center;
+}
+
+.run-content{
+    border: 2px solid turquoise;
+    width: fit-content;
+    background-color: #63e7e7;
+    position: relative;
+    bottom: 52px;
+    left: 19px;
+    text-align: center;
+  
+}
+.contactme-card{
+    padding: 12px;
+    border-right: 5px solid #0b1b2b;
+    text-align: center;
+    width:6.5%;
+    margin-top: 20px;
+}
+
+.calculator-content p{
+    text-decoration: none;
+}
+
+.contactme-footer{
+ 
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ text-align: center;
+}
+
+.contactme-footer a {
+    padding: 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    font-style: normal;
+    
+}
+
+.contactme-footer li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    left: 260px;
+    bottom: 100px;
+    padding: 33px;
+}
