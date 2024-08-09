@@ -291,11 +291,11 @@ nav a{
 }
 
 
-.calculator, .led, .puzzel, .run{
+.note-t, .code-quiz, .password-g, .work-day{
     flex: 50%;
     
 }
- .calculator img, .led img, .puzzel img, .run img {
+ .note-taker img, .code-quiz img, .password-generator img, .workday-scheduler img {
     widtH: 100%;
     height: 100%;
     margin-left: 15px;
@@ -323,7 +323,7 @@ nav a{
     left: 19px;
     text-align: center;
 }
-.led-content{
+.code-q{
     border: 2px solid turquoise;
     width: fit-content;
     background-color: #63e7e7;
@@ -332,7 +332,7 @@ nav a{
     left: 19px;
     text-align: center;
 }
-.calculator-content{
+.note-content{
     border: 2px solid turquoise;
     width: fit-content;
     background-color: #63e7e7;
@@ -342,7 +342,7 @@ nav a{
     text-align: center;
     
 }
-.puzzel-content{
+.password-content{
     border: 2px solid turquoise;
     width: fit-content;
     background-color: #63e7e7;
@@ -352,7 +352,7 @@ nav a{
     text-align: center;
 }
 
-.run-content{
+.workday-content{
     border: 2px solid turquoise;
     width: fit-content;
     background-color: #63e7e7;
@@ -370,7 +370,7 @@ nav a{
     margin-top: 20px;
 }
 
-.calculator-content p{
+.note-content p{
     text-decoration: none;
 }
 
