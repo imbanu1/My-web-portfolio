@@ -230,6 +230,7 @@ h3 p{
     font-size: 20px;
 }
 
+
 nav {
 margin: 0;
 }
@@ -265,6 +266,11 @@ nav a{
     width: 100%;
     font-size: 20px;
 }
+.about-me p, .work-section {
+    margin-left: 0;
+    padding: 20px;
+}
+
 .about-card{
     margin-top: 15px;
     text-align: right;
@@ -273,18 +279,48 @@ nav a{
 
 }
 .work-section{
+    padding: 30px 10px;
     display: flex;
+    justify-content: space-between;
+    margin: 40px 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: auto; 
+    right: auto;
 }
 .work-card{
-    border-right: 5px solid #0b1b2b;
+
     padding: 25px;
-    margin-top: 25px
-    
+    margin-top: 25px;
+    flex: 1;
+    height: auto;
 }
 .applications{
     display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 25px;
     
+}
+.applications a {
+    flex: 1 1 calc(45% - 20px);
+    text-decoration: none;
+    color: inherit;
+    margin: 10px 0;
+  }
+  .applications img {
+    width: 100%;
+    height: auto;
+    border: 5px solid turquoise;
+  }
+  
+  .applications div {
+    border: 2px solid #4ca3dd; 
+    background-color: #e7f3f9; 
+    text-align: center;
+    padding: 10px;
+    margin-top: -50px;
 }
 .surf{
     flex: 100%; 
@@ -399,3 +435,9 @@ nav a{
     bottom: 100px;
     padding: 33px;
 }
+@media (max-width: 768px) {
+    .applications a {
+      flex: 1 1 100%;
+      margin: 10px 0;
+    }
+  }
